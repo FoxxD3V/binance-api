@@ -4,7 +4,7 @@
   "description": "Binance REST & WebSockets API",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodemon test.js"
+    "test": "node test.js"
   },
   "dependencies": {
     "axios": "^0.21.4",
@@ -12,8 +12,7 @@
     "ws": "^8.2.3"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.4",
-    "nodemon": "^2.0.15"
+    "@babel/preset-env": "^7.16.4"
   },
   "babel": {
     "presets": [
