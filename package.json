@@ -1,46 +1,19 @@
 {
-  "name": "@marcius-capital/binance-api",
-  "version": "0.2.15",
-  "description": "Binance API (REST + WebSocket) for Node.js",
+  "name": "foxx/binance-api",
+  "version": "1.0.1",
+  "description": "Binance REST & WebSockets API",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcius-capital/binance-api.git"
+    "url": "git+https://github.com/FoxxD3V/binance-api.git"
   },
-  "scripts": {
-    "dev": "nodemon test.js"
-  },
-  "keywords": [
-    "node",
-    "nodejs",
-    "javascript",
-    "binance",
-    "binance-api",
-    "api",
-    "cryptocurrency",
-    "rest",
-    "websocket",
-    "ws",
-    "stream",
-    "marcius",
-    "marcius-capital"
-  ],
-  "author": "Nikita Marcius <Telegram @nikitamarcius>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/marcius-capital/binance-api/issues"
-  },
-  "homepage": "https://github.com/marcius-capital/binance-api#readme",
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "^0.21.2",
     "axios-cache-adapter": "2.5.0",
     "ws": "7.2.1"
   },
   "devDependencies": {
     "nodemon": "2.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "babel": {
     "presets": [
