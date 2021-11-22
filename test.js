@@ -1,17 +1,17 @@
-const api = require('./src')
+const api = require('./src');
 
 // Fill for testing private request
 const auth = {
-    key: '',
-    secret: '',
-}
+  key: '',
+  secret: ''
+};
 
 /**
  ** Rest
  */
 
 // Public requests
-// api.rest.exchangeInfo({}).then(res => console.log(res))
+api.rest.exchangeInfo({}).then((res) => console.log(res));
 // api.rest.ticker({ symbol: 'BTCUSDT' }).then(res => console.log(res))
 // api.rest.ticker({}).then(res => console.log(res))
 // api.rest.ticker24hr({ symbol: 'BTCUSDT' }).then(res => console.log(res)) // Single ticker

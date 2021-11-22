@@ -1,20 +1,19 @@
 {
   "name": "@foxx/binance-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Binance REST & WebSockets API",
   "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FoxxD3V/binance-api.git"
+  "scripts": {
+    "test": "nodemon test.js"
   },
   "dependencies": {
-    "axios": "0.21.4",
-    "axios-cache-adapter": "2.7.3",
-    "ws": "8.2.3"
+    "axios": "^0.21.4",
+    "axios-cache-adapter": "^2.7.3",
+    "ws": "^8.2.3"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.16.4",
-    "nodemon": "2.0.15"
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
   },
   "babel": {
     "presets": [
