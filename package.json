@@ -4,7 +4,7 @@
   "description": "Binance REST & WebSockets API",
   "main": "src/index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node src/test.js"
   },
   "dependencies": {
     "axios": "^0.21.4",

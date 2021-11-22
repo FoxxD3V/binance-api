@@ -1,4 +1,4 @@
-const api = require('./src');
+const api = require('./index');
 
 // Fill for testing private request
 const auth = {
