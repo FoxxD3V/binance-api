@@ -1,10 +1,8 @@
-const rest = require('./spot/rest')
-const stream = require('./spot/stream')
+const rest = require('./spot/rest');
 
 module.exports = {
-    rest,
-    stream,
-    error: err => {
-        return (typeof err.response.data != 'undefined') ? `${err.response.data.code}: ${err.response.data.msg}` : err
-    }
-}
+  rest,
+  error: (err) => {
+    return typeof err.response.data != 'undefined' ? `${err.response.data.code}: ${err.response.data.msg}` : err;
+  }
+};
