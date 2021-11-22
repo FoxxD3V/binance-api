@@ -1,6 +1,6 @@
 {
   "name": "foxx-binance-api",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Binance REST & WebSockets API",
   "main": "src/index.js",
   "scripts": {
@@ -9,6 +9,8 @@
   "dependencies": {
     "axios": "^0.21.4",
     "axios-cache-adapter": "^2.7.3",
+    "crypto": "^1.0.1",
+    "querystring": "^0.2.1",
     "ws": "^8.2.3"
   },
   "devDependencies": {
