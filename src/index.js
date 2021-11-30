@@ -5,7 +5,6 @@ const rest = require('./spot/userStream');
 module.exports = {
   rest,
   stream,
-  userStream,
   error: (err) => {
     return typeof err.response.data != 'undefined' ? `${err.response.data.code}: ${err.response.data.msg}` : err;
   }
