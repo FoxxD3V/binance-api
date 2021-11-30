@@ -1,6 +1,5 @@
 const rest = require('./spot/rest');
-const rest = require('./spot/stream');
-const rest = require('./spot/userStream');
+const stream = require('./spot/stream');
 
 module.exports = {
   rest,
