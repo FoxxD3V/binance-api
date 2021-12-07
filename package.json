@@ -1,6 +1,6 @@
 {
-  "name": "binance-api",
-  "version": "1.1.4",
+  "name": "@foxx/binance-api",
+  "version": "1.1.5",
   "description": "Binance REST & WebSockets API",
   "main": "src/index.js",
   "scripts": {
