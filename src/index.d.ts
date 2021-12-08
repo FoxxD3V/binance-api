@@ -1,1 +1,1 @@
-declare module 'binance-api';
+declare module '@foxx/binance-api';
