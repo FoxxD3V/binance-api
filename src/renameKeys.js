@@ -17,6 +17,7 @@ const renameObj = (schema, obj) => Object.keys(obj).reduce((result, item) => {
 
 // Check Object or Array
 const rename = (schema = {}, data = {} || []) => {
+	if (!data) return data;
 	return Array.isArray(data) ? data.map((item) => renameObj(schema, item)) : renameObj(schema, data)
 }
 
