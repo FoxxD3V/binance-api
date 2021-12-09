@@ -18,8 +18,8 @@ const setupWebSocket = ({ path, uniqueID = false }, callback) => {
     const stream = new WS(url + path)
 
     // Event stream
-    stream.onopen = () => console.log('[socket] Connected to exchange')
-    stream.onclose = () => console.log('[socket] Connected closed')
+    //stream.onopen = () => console.log('[socket] Connected to exchange')
+    //stream.onclose = () => console.log('[socket] Connected closed')
     stream.onmessage = (message) => callback(rename(JSON.parse(message.data)))
     stream.onerror = (err) => console.error(err)
 
